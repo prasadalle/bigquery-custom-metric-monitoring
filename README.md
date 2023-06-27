@@ -1,4 +1,4 @@
-## BigQuery Streaming Insert Buffer Custom Metric
+## BigQuery Custom Metric Monitoring
 
 ### Steps
 In this walkthrough we'll be using the following system table to build our custom metric: https://cloud.google.com/bigquery/docs/information-schema-tables
@@ -38,4 +38,4 @@ In this walkthrough we'll be using the following system table to build our custo
 1. As long as your script is still running you should receive an alert after the threshold passes 50 for 1 minute
 
 ### Contributors
-* [Chris Willis](https://github.com/willisc7) for documenting steps and testing my scripts
+* [Chris Willis](https://github.com/willisc7) for testing and documenting Prasad Alle's scripts
